@@ -4,7 +4,7 @@ provider "azurerm" {
 }
 
 resource "azurerm_resource_group" "example" {
-  name     = "RG2-{Suffix}"
+  name     = "rg2-{Suffix}"
   location = "West Europe"
 }
 

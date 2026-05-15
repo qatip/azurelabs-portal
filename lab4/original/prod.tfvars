@@ -1,2 +1,2 @@
-resource_group_name = "RG-{Suffix}-prod"
+resource_group_name = "rg-{suffix}-prod"
 location            = "UK South"

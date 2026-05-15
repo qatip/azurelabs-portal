@@ -1,5 +1,5 @@
 resource "azurerm_resource_group" "rg" {
-  name     = "RG-{Suffix}"
+  name     = "rg-{suffix}"
   location = "eastus"
 }
 

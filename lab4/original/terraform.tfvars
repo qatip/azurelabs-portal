@@ -1,2 +1,2 @@
-#resource_group_name = "RG-{Suffix}-test"
+#resource_group_name = "rg-{Suffix}-test"
 #location            = "North Europe"

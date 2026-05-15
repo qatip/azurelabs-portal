@@ -1,2 +1,2 @@
-resource_group_name = "RG-130526-1-dev"
+resource_group_name = "rg-{suffix}-dev"
 location            = "West Europe"

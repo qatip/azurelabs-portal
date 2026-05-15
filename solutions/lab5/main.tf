@@ -24,8 +24,8 @@ module "networking" {
 
 terraform {
   backend "azurerm" {
-    resource_group_name  = "RG-{Suffix}-SA"
-    storage_account_name = "remotestate{unique-identifier}"
+    resource_group_name  = "rg-{suffix}-sa"
+    storage_account_name = "remotestate{suffix}"
     container_name       = "terraform-state"
     key                  = "terraform.tfstate"
   }
