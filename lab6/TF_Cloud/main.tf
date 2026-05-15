@@ -12,7 +12,7 @@ provider "azurerm" {
 }
 
 resource "azurerm_resource_group" "lab6" {
-  name     = "RG1"
+  name     = "rg-tc-{suffix}"
   location = "West Europe"
 }
 
