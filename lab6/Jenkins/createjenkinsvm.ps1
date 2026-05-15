@@ -1,5 +1,5 @@
 # Variables
-$ResourceGroupName = "Jenkins-{Suffix}"
+$ResourceGroupName = "jenkins-{suffix}"
 $Location = "westeurope"
 $VMName = "VM1"
 $Image = "Ubuntu2404"
