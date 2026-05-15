@@ -14,14 +14,14 @@ provider "azurerm" {
 
 terraform {
   backend "azurerm" {
-    resource_group_name  = "RG-{Suffix}-SA"
-    storage_account_name = "<your storage account>"
+    resource_group_name  = "jenkins-sa-{suffix}"
+    storage_account_name = "jenkinsstate-{suffix}"
     container_name       = "terraform-state"
     key                  = "terraform.tfstate"
   }
 }
 
 resource "azurerm_resource_group" "example" {
-  name     = "RG-{Suffix}-test-1"
+  name     = "rg-{suffix}-test-1"
   location = "westeurope"
 }
